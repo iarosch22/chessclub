@@ -1,0 +1,22 @@
+.features {
+    padding: 60px 160px 80px 160px;
+
+    background: url("~../../../images/bg-features-desktop.svg") no-repeat;
+    background-position: bottom left 100px;
+
+    display: flex;
+    flex-direction: column;
+
+    &__title {
+        margin: 0;
+        margin-bottom: 40px;
+    }
+
+    &__subtitle {
+        margin-bottom: 110px;
+    }
+
+    &__gallery {
+        margin-bottom: 110px;
+    }
+}
