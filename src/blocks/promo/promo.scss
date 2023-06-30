@@ -1,0 +1,21 @@
+.promo {
+    padding: 60px 0 80px 160px;
+
+    background: url("~../../../images/bg-header-desktop.svg") no-repeat;
+    background-position: right top 60px;
+
+    display: flex;
+    flex-direction: column;
+
+    &__sticker {
+        margin-bottom: 70px;
+    }
+
+    &__title {
+        margin-bottom: 40px;
+    }
+
+    &__subtitle {
+        margin-bottom: 182px;
+    }
+}

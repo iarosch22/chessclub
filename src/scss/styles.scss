@@ -11,3 +11,9 @@
 @use '../blocks/registration/__btn/registration__btn.scss';
 @use '../blocks/registration/__link/registration__link.scss';
 @use '../blocks/registration/__arrow-link/registration__arrow-link.scss';
+
+@use '../blocks/promo/promo.scss';
+@use '../blocks/promo/__sticker/promo__sticker.scss';
+@use '../blocks/promo/__title/promo__title.scss';
+@use '../blocks/promo/__subtitle/promo__subtitle.scss';
+@use '../blocks/promo/__chessboard-img/promo__chessboard-img.scss';
