@@ -1,0 +1,14 @@
+@use '../../../scss/mixins/button' as b;
+@use '../../../scss/mixins/links' as l;
+@use '../../../scss/variables' as v;
+
+.registration__btn {
+    @include l.links;
+    @include b.button;
+
+    background-color: v.$green;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,10 @@
+@use '../../scss/variables' as v;
+
+.registration {
+    font-size: v.$font-size-buttons;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}

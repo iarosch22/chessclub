@@ -1,5 +1,13 @@
-@use "../vendor/normalize.css";
+@use '../vendor/normalize.css';
 
-body {
-    background-color: red;
-}
+@use '../blocks/root/root.scss';
+
+@use '../blocks/page/page.scss';
+
+@use '../blocks/logo/logo.scss';
+
+@use '../blocks/header/header.scss';
+@use '../blocks/registration/registration.scss';
+@use '../blocks/registration/__btn/registration__btn.scss';
+@use '../blocks/registration/__link/registration__link.scss';
+@use '../blocks/registration/__arrow-link/registration__arrow-link.scss';

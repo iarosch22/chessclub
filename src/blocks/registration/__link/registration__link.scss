@@ -1,0 +1,9 @@
+@use '../../../scss/mixins/links' as m;
+
+.registration__link {
+    @include m.links;
+
+    display: flex;
+    justify-content: space-between;
+    width: 152px;
+}
