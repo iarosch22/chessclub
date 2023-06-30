@@ -1,0 +1,21 @@
+@use 'variables' as v;
+
+.invite {
+    background-color: v.$purple;
+    background-image: url("~../../../images/bg-invite-left.svg"), url("~../../../images/bg-invite-right.svg");
+    background-repeat: no-repeat, no-repeat;
+    background-position: left center, left 220px center;
+    background-size: auto, 440px 440px;
+
+    padding: 0 160px 0 0;
+    min-height: 560px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+
+    &__title {
+        margin: 0;
+    }
+}

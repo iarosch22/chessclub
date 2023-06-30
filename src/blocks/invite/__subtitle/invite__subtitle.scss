@@ -1,0 +1,5 @@
+@use '../../../scss/mixins/font-default' as f;
+
+.invite__subtitle {
+    @include f.font-default;
+}
