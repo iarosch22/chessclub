@@ -1,0 +1,8 @@
+@use '../../../scss/mixins/font-default' as f;
+
+
+.team__subtitle {
+    @include f.font-default;
+
+    max-width: 500px;
+}

@@ -1,0 +1,17 @@
+@use 'variables' as v;
+
+.team {
+    padding: 80px 160px 80px 160px;
+
+    background-color: v.$purple;
+
+    &__title {
+        margin: 0;
+        margin-bottom: 40px;
+    }
+
+    &__subtitle {
+        margin: 0;
+        margin-bottom: 110px;
+    }
+}

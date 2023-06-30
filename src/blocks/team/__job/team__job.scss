@@ -1,0 +1,5 @@
+@use '../../../scss/mixins/font-default' as f;
+
+.team__job {
+    @include f.font-default;
+}
