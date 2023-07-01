@@ -4,11 +4,13 @@
 
 .registration__btn {
     @include l.links;
-    @include b.button;
+    @include b.button(desktop);
 
     background-color: v.$green;
 
     display: flex;
     justify-content: center;
     align-items: center;
+
+    @include b.button(tablet);
 }

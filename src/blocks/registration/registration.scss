@@ -8,3 +8,9 @@
     align-items: center;
     gap: 50px;
 }
+
+@media screen and (max-width: 1440px) {
+    .registration {
+        gap: 30px;
+    }
+}

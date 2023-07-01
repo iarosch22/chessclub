@@ -2,4 +2,6 @@
 
 .invite__subtitle {
     @include f.font-default;
+
+    margin: 0;
 }

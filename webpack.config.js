@@ -30,17 +30,6 @@ module.exports = {
         type: 'asset/resource',
       },
       {
-        test: /\.s[ac]ss$/i,
-        use: [MiniCssExtractPlugin.loader, "css-loader", "postcss-loader", {
-          loader: "sass-loader",
-          options: {
-            sassOptions: {
-              includePaths: ["src/scss"]
-            }
-          }
-        }]
-      },
-      {
         test: /\.css$/,
         use: [MiniCssExtractPlugin.loader, {
             loader: 'css-loader',
@@ -50,6 +39,17 @@ module.exports = {
           },
           'postcss-loader'
         ]
+      },
+      {
+        test: /\.s[ac]ss$/i,
+        use: [MiniCssExtractPlugin.loader, "css-loader", "postcss-loader", {
+          loader: "sass-loader",
+          options: {
+            sassOptions: {
+              includePaths: ["src/scss"]
+            }
+          }
+        }]
       },
     ]
   },
