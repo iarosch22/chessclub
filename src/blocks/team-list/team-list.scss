@@ -7,3 +7,16 @@
     margin: 0;
     padding: 0;
 }
+
+@media screen and (max-width: 1440px) {
+    .team-list {
+        gap: 28px;
+        flex-wrap: nowrap;
+        overflow-x: scroll;
+        scrollbar-width: none;
+    }
+
+    .team-list::-webkit-scrollbar {
+        display: none;
+    }
+}

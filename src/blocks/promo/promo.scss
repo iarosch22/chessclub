@@ -1,7 +1,7 @@
 .promo {
     padding: 60px 0 80px 160px;
 
-    background: url("~../../../images/bg-header-desktop.svg") no-repeat;
+    background: url("~../../../images/bg-header-tablet.svg") no-repeat;
     background-position: right top 60px;
 
     display: flex;
@@ -19,5 +19,17 @@
     &__subtitle {
         margin: 0;
         margin-bottom: 182px;
+    }
+}
+
+@media screen and (max-width: 1440px) {
+    .promo {
+        padding: 60px 0 50px 50px;
+
+        background-position: right bottom 50px;
+
+        &__subtitle {
+            margin-bottom: 212px;
+        }
     }
 }
