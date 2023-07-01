@@ -12,5 +12,11 @@
     justify-content: center;
     align-items: center;
 
-    @include b.button(tablet);
+
+}
+
+@media screen and (max-width: 1440px) {
+    .registration__btn {
+        @include b.button(tablet);
+    }
 }
