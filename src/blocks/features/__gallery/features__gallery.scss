@@ -1,4 +1,17 @@
 .features__gallery {
     display: flex;
-    justify-content: space-between;
+    gap: 80px;
+}
+
+@media screen and (max-width: 1440px) {
+    .features__gallery {
+        gap: 28px;
+        flex-wrap: nowrap;
+        overflow-x: scroll;
+        scrollbar-width: none;
+    }
+
+    .features__gallery::-webkit-scrollbar {
+        display: none;
+    }
 }

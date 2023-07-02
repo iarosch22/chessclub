@@ -33,3 +33,24 @@
         }
     }
 }
+
+@media screen and (max-width: 768px) {
+    .promo {
+        padding: 50px 20px 20px 20px;
+
+        background: url("~../../../images/bg-header-mobile.svg") no-repeat;
+        background-position: right 20px top 50px;
+
+        &__sticker {
+            margin-bottom: 60px;
+        }
+
+        &__title {
+            margin-bottom: 20px;
+        }
+
+        &__subtitle {
+            margin-bottom: 200px;
+        }
+    }
+}

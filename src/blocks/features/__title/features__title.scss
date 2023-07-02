@@ -1,7 +1,15 @@
 @use '../../../scss/mixins/font-title' as f;
 
 .features__title {
-    @include f.font-title;
+    @include f.font-title(desktop);
 
     max-width: 500px;
+}
+
+@media screen and (max-width: 768px) {
+    .features__title {
+        @include f.font-title(mobile);
+
+        max-width: 280px;
+    }
 }

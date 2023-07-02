@@ -2,3 +2,9 @@
     width: 416px;
     align-self: flex-end;
 }
+
+@media screen and (max-width: 768px) {
+    .features__chessboard-img {
+        align-self: flex-start;
+    }
+}

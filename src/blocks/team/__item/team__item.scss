@@ -5,3 +5,12 @@
     flex-direction: column;
     gap: 30px;
 }
+
+@media screen and (max-width: 768px) {
+    .team__item {
+        display: none;
+        gap: 20px;
+
+        width: 280px;
+    }
+}

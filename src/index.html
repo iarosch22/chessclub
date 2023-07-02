@@ -25,7 +25,7 @@
                 <h2 class="team__title">Наша команда</h2>
                 <p class="team__subtitle">Лучшие шахматисты и шахматистки любители России, гройсмейстеры, с ними играть — одно удовольствие!</p>
                 <ul class="team-list">
-                    <li class="team__item">
+                    <li class="team__item active">
                         <img src="<%=require('./images/team-item1.jpg')%>" alt="" class="team__img">
                         <div class="team__text">
                             <span class="team__name">Андрей</span>
@@ -46,6 +46,14 @@
                             <span class="team__job">Шахматист, геймер.</span>
                         </div>
                     </li>
+                    <div class="breadcrumbs">
+                        <input type="radio" name="breadcrumbs-team" class="breadcrumbs__input" id="teamItem-1" checked>
+                        <label class="breadcrumbs__dot" for="teamItem-1"></label>
+                        <input type="radio" name="breadcrumbs-team" class="breadcrumbs__input" id="teamItem-2">
+                        <label class="breadcrumbs__dot" for="teamItem-2"></label>
+                        <input type="radio" name="breadcrumbs-team" class="breadcrumbs__input" id="teamItem-3">
+                        <label class="breadcrumbs__dot" for="teamItem-3"></label>
+                    </div>
                 </ul>
             </section>
             <section class="invite">
@@ -61,6 +69,14 @@
                     <img src="<%=require('./images/features-item1.jpg')%>" alt="" class="features__item">
                     <img src="<%=require('./images/features-item2.jpg')%>" alt="" class="features__item">
                     <img src="<%=require('./images/features-item3.jpg')%>" alt="" class="features__item">
+                </div>
+                <div class="breadcrumbs">
+                    <input type="radio" name="breadcrumbs-gallery" class="breadcrumbs__input" id="galleryItem-1" checked>
+                    <label class="breadcrumbs__dot" for="galleryItem-1"></label>
+                    <input type="radio" name="breadcrumbs-gallery" class="breadcrumbs__input" id="galleryItem-2">
+                    <label class="breadcrumbs__dot" for="galleryItem-2"></label>
+                    <input type="radio" name="breadcrumbs-gallery" class="breadcrumbs__input" id="galleryItem-3">
+                    <label class="breadcrumbs__dot" for="galleryItem-3"></label>
                 </div>
                 <img src="<%=require('./images/chessboard-features.jpg')%>" alt="" class="features__chessboard-img">
             </section>

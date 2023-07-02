@@ -1,7 +1,13 @@
 @use '../../../scss/mixins/font-default' as f;
 
 .footer__info {
-    @include f.font-default;
+    @include f.font-default(desktop);
 
     max-width: 500px;
+}
+
+@media screen and (max-width: 768px) {
+    .footer__info {
+        @include f.font-default(mobile);
+    }
 }

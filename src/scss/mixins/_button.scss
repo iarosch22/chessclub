@@ -16,5 +16,11 @@
 
         font-size: 13px;
         line-height: 1.38;
+    } @else if $size == mobile {
+        width: 140px;
+        height: 30px;
+
+        font-size: 10px;
+        line-height: 1.8;
     }
 }

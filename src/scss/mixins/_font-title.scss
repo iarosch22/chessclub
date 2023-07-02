@@ -1,5 +1,10 @@
-@mixin font-title {
-    font-size: 70px;
+@mixin font-title($size) {
     font-weight: 600;
     line-height: 0.9;
+
+    @if $size == desktop {
+        font-size: 70px;
+    } @else if $size == mobile {
+        font-size: 40px;
+    }
 }

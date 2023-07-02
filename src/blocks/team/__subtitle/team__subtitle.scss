@@ -2,7 +2,15 @@
 
 
 .team__subtitle {
-    @include f.font-default;
+    @include f.font-default(desktop);
 
     max-width: 500px;
+}
+
+@media screen and (max-width: 768px) {
+    .team__subtitle {
+        @include f.font-default(mobile);
+
+        max-width: 280px;
+    }
 }

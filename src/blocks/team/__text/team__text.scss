@@ -3,3 +3,9 @@
     flex-direction: column;
     gap: 10px;
 }
+
+@media screen and (max-width: 768px) {
+    .team__text {
+        gap: 5px;
+    }
+}

@@ -1,0 +1,7 @@
+.breadcrumbs__input {
+    display: none;
+}
+
+.breadcrumbs__input:checked + .breadcrumbs__dot {
+    opacity: 1;
+}

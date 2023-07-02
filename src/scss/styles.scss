@@ -44,4 +44,10 @@
 
 @use '../blocks/footer/footer.scss';
 @use '../blocks/footer/__copyright/footer__copyright.scss';
-@use '../blocks/footer/__info/footer__info.scss'
+@use '../blocks/footer/__info/footer__info.scss';
+
+@use '../blocks/breadcrumbs/breadcrumbs.scss';
+@use '../blocks/breadcrumbs/__dot/breadcrumbs__dot.scss';
+@use '../blocks/breadcrumbs/__input/breadcrumbs__input.scss';
+
+@use '../blocks/active/active.scss';

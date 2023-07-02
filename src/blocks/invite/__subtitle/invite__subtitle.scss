@@ -1,7 +1,15 @@
 @use '../../../scss/mixins/font-default' as f;
 
 .invite__subtitle {
-    @include f.font-default;
+    @include f.font-default(desktop);
 
     margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+    .invite__subtitle {
+        @include f.font-default(mobile);
+
+        max-width: 280px;
+    }
 }

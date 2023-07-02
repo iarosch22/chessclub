@@ -2,5 +2,13 @@
 
 
 .team__title {
-    @include f.font-title;
+    @include f.font-title(desktop);
+}
+
+@media screen and (max-width: 768px) {
+    .team__title {
+        @include f.font-title(mobile);
+
+        max-width: 280px;
+    }
 }

@@ -23,3 +23,9 @@
         font-size: 13px;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .registration__link {
+        display: none;
+    }
+}

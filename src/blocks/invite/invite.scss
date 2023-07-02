@@ -19,3 +19,30 @@
         margin: 0;
     }
 }
+
+@media screen and (max-width: 1440px) {
+    .invite {
+        padding: 0 50px 0 0;
+
+        min-height: 460px;
+
+        background-image: url("~../../../images/bg-invite-tablet.svg");
+        background-repeat: no-repeat;
+        background-position: left center;
+        background-size: auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .invite {
+        padding: 20px 20px 0 20px;
+
+        min-height: 320px;
+
+        justify-content: flex-start;
+        align-items: flex-start;
+
+        background-image: url("~../../../images/bg-invite-mobile.svg");
+        background-position: bottom;
+    }
+}

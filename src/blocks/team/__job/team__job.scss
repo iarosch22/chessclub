@@ -1,5 +1,11 @@
 @use '../../../scss/mixins/font-default' as f;
 
 .team__job {
-    @include f.font-default;
+    @include f.font-default(desktop);
+}
+
+@media screen and (max-width: 768px) {
+    .team__job {
+        @include f.font-default(mobile);
+    }
 }

@@ -21,3 +21,44 @@
         margin-bottom: 110px;
     }
 }
+
+@media screen and (max-width: 1440px) {
+    .features {
+        padding: 50px 50px 80px 50px;
+
+        background: url("~../../../images/bg-features-tablet.svg") no-repeat;
+        background-position: bottom left;
+
+        &__subtitle {
+            margin-bottom: 140px;
+        }
+
+        &__gallery {
+            margin-bottom: 140px;
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .features {
+        padding: 20px 20px 20px 20px;
+
+        background-image: none;
+
+        &__title {
+            margin-bottom: 20px;
+        }
+
+        &__subtitle {
+            margin-bottom: 60px;
+        }
+
+        &__gallery {
+            margin-bottom: 30px;
+        }
+
+        .breadcrumbs {
+            margin-bottom: 60px;
+        }
+    }
+}

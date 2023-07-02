@@ -4,3 +4,17 @@
     gap: 40px;
     width: 500px;
 }
+
+@media screen and (max-width: 1440px) {
+    .invite__text {
+        width: 478px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .invite__text {
+        max-width: 280px;
+
+        gap: 20px;
+    }
+}

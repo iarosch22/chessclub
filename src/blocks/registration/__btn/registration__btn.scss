@@ -20,3 +20,9 @@
         @include b.button(tablet);
     }
 }
+
+@media screen and (max-width: 768px) {
+    .registration__btn {
+        @include b.button(mobile);
+    }
+}
